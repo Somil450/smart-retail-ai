@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: smart-retail-ai
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    envVars:
+      - key: PORT
+        value: 8000
+    healthCheckPath: /
