@@ -1,0 +1,154 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "Howdy"],
+      "responses": ["Hello! How can I help you today?", "Hi there, what can I do for you?", "Greetings! Welcome to Smart Retail."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "farewell", "see ya"],
+      "responses": ["Sad to see you go. Goodbye!", "Talk to you later!", "Have a great day!"]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["what hours are you open", "what are your hours", "when are you open", "store hours", "when do you close", "opening time", "closing time"],
+      "responses": ["We are open from 9 AM to 9 PM, Monday through Sunday.", "Our store hours are 9 AM to 9 PM every day."]
+    },
+    {
+      "tag": "returns",
+      "patterns": ["how do I return an item", "return policy", "can I return this", "I want to return my purchase", "return process", "how to return", "refund policy"],
+      "responses": ["You can return any item within 30 days of purchase with a valid receipt.", "Our return policy allows returns within 30 days in original condition."]
+    },
+    {
+      "tag": "order_status",
+      "patterns": ["where is my order", "order status", "track my order", "when will my package arrive", "delivery status", "shipping update", "has my order shipped"],
+      "responses": ["To check your order status, please visit the tracking page on our website and enter your order number.", "You can track your order using the link sent to your email."]
+    },
+    {
+      "tag": "payment",
+      "patterns": ["what payment methods do you accept", "can I pay with credit card", "do you accept PayPal", "payment options", "how can I pay"],
+      "responses": ["We accept Visa, Mastercard, American Express, PayPal, and UPI.", "All major credit cards, debit cards, and digital wallets are accepted."]
+    },
+    {
+      "tag": "shipping",
+      "patterns": ["how long does shipping take", "shipping time", "when will I receive my order", "free shipping", "shipping cost", "delivery time"],
+      "responses": ["Standard shipping takes 5–7 business days. Express shipping takes 1–2 business days.", "Free shipping is available on orders over $50."]
+    },
+    {
+      "tag": "discount",
+      "patterns": ["do you have any discounts", "coupon code", "promo code", "sale", "offers", "deals", "discount code"],
+      "responses": ["Check our website for the latest deals and promo codes.", "Sign up for our newsletter to receive exclusive discount codes."]
+    },
+    {
+      "tag": "product_availability",
+      "patterns": ["is this product available", "do you have this in stock", "out of stock", "when will this be restocked", "product availability"],
+      "responses": ["Please search for the product on our website to check availability.", "You can sign up for restock alerts on the product page."]
+    },
+    {
+      "tag": "account",
+      "patterns": ["how do I create an account", "sign up", "register", "login issues", "forgot password", "reset password"],
+      "responses": ["You can create an account by clicking 'Sign Up' on our homepage.", "To reset your password, click 'Forgot Password' on the login page."]
+    },
+    {
+      "tag": "cancel_order",
+      "patterns": ["cancel my order", "how to cancel", "I want to cancel", "order cancellation", "stop my order"],
+      "responses": ["Orders can be cancelled within 24 hours of placing them. Please contact support.", "To cancel your order, go to 'My Orders' and select 'Cancel'."]
+    },
+    {
+      "tag": "size_guide",
+      "patterns": ["size guide", "what size should I get", "size chart", "how do I find my size", "sizing information"],
+      "responses": ["You can find our size guide on each product page under 'Size Chart'.", "Our size guide is available on the product page to help you find the perfect fit."]
+    },
+    {
+      "tag": "gift_card",
+      "patterns": ["gift card", "buy a gift card", "gift voucher", "send a gift", "gift wrapping"],
+      "responses": ["We offer gift cards in denominations of $10, $25, $50, and $100.", "Gift cards are available online and can be emailed directly to the recipient."]
+    },
+    {
+      "tag": "loyalty_program",
+      "patterns": ["loyalty program", "rewards", "points", "earn points", "member benefits", "loyalty card"],
+      "responses": ["Join our loyalty program to earn 1 point per $1 spent. Redeem 100 points for $5 off.", "Sign up for free to start earning rewards on every purchase."]
+    },
+    {
+      "tag": "contact_support",
+      "patterns": ["contact support", "customer service", "talk to a human", "speak to agent", "help desk", "contact us"],
+      "responses": ["You can reach our support team at support@smartretail.com or call 1-800-SMART.", "Our customer service is available Mon–Fri, 9 AM to 6 PM."]
+    },
+    {
+      "tag": "complaint",
+      "patterns": ["I have a complaint", "I am not happy", "bad experience", "poor service", "damaged item", "wrong item received"],
+      "responses": ["We're sorry to hear that! Please contact our support team and we'll make it right immediately.", "I apologize for the inconvenience. Please email support@smartretail.com with your order details."]
+    },
+    {
+      "tag": "product_recommendation",
+      "patterns": ["recommend a product", "what should I buy", "best products", "popular items", "top sellers", "what's trending"],
+      "responses": ["Check out our 'Best Sellers' section on the homepage for top-rated products.", "Our staff picks and trending items are featured on the homepage every week."]
+    },
+    {
+      "tag": "exchange",
+      "patterns": ["exchange an item", "swap product", "I want a different size", "product exchange", "swap for another"],
+      "responses": ["Exchanges are allowed within 30 days of purchase. Visit any store or initiate online.", "You can exchange items by contacting support and we'll arrange a pickup and re-delivery."]
+    },
+    {
+      "tag": "store_location",
+      "patterns": ["where is your store", "store location", "nearest store", "find a store", "physical store", "store address"],
+      "responses": ["Use our store locator on the website to find the nearest store.", "We have locations across the country. Visit smartretail.com/stores for addresses."]
+    },
+    {
+      "tag": "wishlist",
+      "patterns": ["add to wishlist", "save for later", "wishlist", "favorite items", "saved items"],
+      "responses": ["You can add any item to your wishlist by clicking the heart icon on the product page.", "Your wishlist is saved in your account under 'My Wishlist'."]
+    },
+    {
+      "tag": "product_review",
+      "patterns": ["leave a review", "write a review", "product review", "rate a product", "how to review"],
+      "responses": ["You can leave a review on any product page after purchasing it.", "We value your feedback! Go to the product page and scroll down to leave a review."]
+    },
+    {
+      "tag": "newsletter",
+      "patterns": ["subscribe to newsletter", "email updates", "unsubscribe", "stop emails", "sign up for emails"],
+      "responses": ["Subscribe to our newsletter on the homepage footer to get the latest deals.", "To unsubscribe, click 'Unsubscribe' at the bottom of any email we sent you."]
+    },
+    {
+      "tag": "warranty",
+      "patterns": ["warranty", "product warranty", "guarantee", "how long is the warranty", "warranty claim"],
+      "responses": ["Most products come with a 1-year manufacturer warranty. Check the product page for details.", "To make a warranty claim, contact support with your order number and issue description."]
+    },
+    {
+      "tag": "invoice",
+      "patterns": ["invoice", "receipt", "billing", "order receipt", "get my invoice", "download invoice"],
+      "responses": ["Your invoice is emailed after every purchase and is also available under 'My Orders' in your account.", "You can download your invoice from the 'Order Details' page in your account."]
+    },
+    {
+      "tag": "bulk_order",
+      "patterns": ["bulk order", "wholesale", "corporate order", "order in large quantity", "business purchase"],
+      "responses": ["For bulk orders, please contact our B2B team at business@smartretail.com.", "We offer special pricing for bulk and corporate orders. Email us for a quote."]
+    },
+    {
+      "tag": "app",
+      "patterns": ["do you have an app", "mobile app", "download the app", "iOS app", "Android app"],
+      "responses": ["Our app is available on the App Store and Google Play. Search 'Smart Retail'.", "Download our mobile app for exclusive app-only deals and faster checkout."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "that helps", "great", "awesome", "appreciate it"],
+      "responses": ["You're welcome! Is there anything else I can help you with?", "Happy to help! Let me know if you need anything else."]
+    },
+    {
+      "tag": "privacy",
+      "patterns": ["privacy policy", "my data", "data security", "personal information", "is my data safe"],
+      "responses": ["Your privacy is important to us. We never sell your data. Read our Privacy Policy at smartretail.com/privacy.", "We use industry-standard encryption to protect your personal information."]
+    },
+    {
+      "tag": "age_restricted",
+      "patterns": ["age verification", "age limit", "restricted products", "can I buy alcohol", "ID required"],
+      "responses": ["Some products require age verification at the time of delivery. Please have a valid ID ready.", "Age-restricted products require you to verify your age during checkout."]
+    },
+    {
+      "tag": "eco_friendly",
+      "patterns": ["eco friendly", "sustainable products", "green products", "environment", "recyclable packaging"],
+      "responses": ["We offer an eco-friendly product range and use recyclable packaging for all orders.", "Check our 'Green' category for sustainable and environmentally friendly products."]
+    }
+  ]
+}
